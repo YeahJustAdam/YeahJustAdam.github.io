@@ -4,9 +4,13 @@
     <meta charset="utf-8" />
     <meta http-equiv="refresh" content="0; url=/main/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Redirecting…</title>
+    <title>Přesměrování…</title>
+    <script>
+      // fallback, kdyby meta refresh někde neprošel
+      window.location.replace("/main/");
+    </script>
   </head>
-  <body>
-    <a href="/main/">Go to /main</a>
+  <body style="background-color: rgb(255, 255, 255); font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;">
+    <a href="/main/"></a>
   </body>
 </html>
